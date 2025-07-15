@@ -22,7 +22,7 @@ fun BookDetailScreen(
 ) {
     val book by viewModel.book.collectAsState()
 
-    val isFavorite by viewModel.isFavorite.collectAsState(initial = false) // Presumo que você tenha esse state na VM
+    val isFavorite by viewModel.isFavorite.collectAsState(initial = false)
 
     Scaffold(
         topBar = {

@@ -9,15 +9,9 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.navigation.compose.NavHost
-import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.bookapp.presentation.navigation.BookNavHost
 import dagger.hilt.android.AndroidEntryPoint
-import com.example.bookapp.presentation.screens.BookListScreen
-import com.example.bookapp.presentation.screens.BookDetailScreen
-import com.example.bookapp.presentation.screens.FavoritesScreen
-
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

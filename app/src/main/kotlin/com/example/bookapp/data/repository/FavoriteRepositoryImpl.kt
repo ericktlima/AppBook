@@ -1,4 +1,3 @@
-// data/repository/FavoriteRepositoryImpl.kt
 package com.example.bookapp.data.repository
 
 import com.example.bookapp.data.local.FavoriteBookDao
